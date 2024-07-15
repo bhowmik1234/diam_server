@@ -23,7 +23,7 @@ const app = express();
 connectDB();
 
 const corsOption = {
-  origin: `${process.env.FRONTEND_URL}`,
+  origin: `https://diam-client-git-main-bhowmiks-projects.vercel.app/`,
   method: ['GET', 'POST', 'DELETE']
 }
 
